@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple steps:
 
 * Open your terminal - Windows: `Win + R`, then type cmd | Mac: `Command + space`, then type Terminal
 * Navigate to a directory of your choosing using the cd command
-* Run this command in your OS terminal: `git clone git@github.com:promise-J/micro-reddit.git` to get a copy of the project.
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Blog_app.git` to get a copy of the project.
 * Navigate to the project's directory using the `cd` command
 * Run `rails webpacker:install` to configure Webpacker for your environment. Otherwise, an error like `Webpacker::Manifest::MissingEntryError` will appear if you attempt to run the server.
 * Install dependencies by running `bundle install`
