@@ -2,8 +2,7 @@
 
 # Blog-app
 
-A bare bones app (unstyled) which allows users to post articles An app which allows users to input a car (with it's make, model and year information) into a listing
-
+An unstyled app which allows users to post articles (with it's title, body and status)
 
 ![New article](/app/assets/images/New-article.png?raw=true "New article")
 
@@ -11,7 +10,7 @@ and then receive comments on those articles from other users, on the one hand, o
 
 ![Articles display](/app/assets/images/Articles-display.png?raw=true "Articles display")
 
-This project is an exercise in building CRUD (Create, Read, Update and Destroy) functionality and in association of two models (articles and comments) in the Ruby-on-Rails manner.
+This project is an exercise both in building CRUD (Create, Read, Update and Destroy) functionality as well as in association of two models (articles and comments) in the Ruby-on-Rails manner.
 
 
 ## Built With
@@ -80,4 +79,4 @@ Guidelines for this project supplied by [The Odin Project](https://www.theodinpr
 
 ## 📝 License
 
-This project is [MIT](https://github.com/promise-J/micro-reddit/blob/micro-reddit-feature/LICENSE) licensed.
+This project is [MIT](https://github.com/German-Cobian/Blog-App/blob/main/LICENSE) licensed.
