@@ -2,11 +2,20 @@
 
 # Blog-app
 
-A bare bones app (unstyled) which allows users to post articles and receive comments on those articles from other users, on the one hand, or to read and comment articles posted by other user's.
+A bare bones app (unstyled) which allows users to post articles An app which allows users to input a car (with it's make, model and year information) into a listing
+
+
+![New article](/app/assets/images/New-article.png?raw=true "New article")
+
+and then receive comments on those articles from other users, on the one hand, or to read and comment articles posted by other user's.
+
+![Articles display](/app/assets/images/Articles-display.png?raw=true "Articles display")
+
+This project is an exercise in building CRUD (Create, Read, Update and Destroy) functionality and in association of two models (articles and comments) in the Ruby-on-Rails manner.
 
 
 ## Built With
-*  Ruby 3.0.0
+*  Ruby 2.7.2
 *  Rails
 *  rubocop
 
@@ -28,13 +37,13 @@ To get a local copy up and running follow these simple steps:
 
 * Open your terminal - Windows: `Win + R`, then type cmd | Mac: `Command + space`, then type Terminal
 * Navigate to a directory of your choosing using the cd command
-* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Blog_app.git` to get a copy of the project.
-* Navigate to the project's directory using the `cd` command
-* Run `rails webpacker:install` to configure Webpacker for your environment. Otherwise, an error like `Webpacker::Manifest::MissingEntryError` will appear if you attempt to run the server.
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Blog_App.git` to get a copy of the project
+* Navigate to the cloned project's directory using the `cd` command
+* Run `rails webpacker:install` to configure Webpacker for your environment
 * Install dependencies by running `bundle install`
 * Migrate the database to your environment by running `rails db:migrate`
-* Execute `rails server` to fire up the server
-* Visit `http://localhost:3000/users/new` to see the home page on your browser.
+* Execute `rails server` or `rails s` to fire up the server
+* Navigate `http://localhost:3000/users/new` to see the home page on your browser window
 * Interact with the app
 * To close the server, enter `Ctrl + C` in your terminal
 
@@ -66,7 +75,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Guidelines for this project supplied by [The Odin Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/ruby-on-rails-ruby-on-rails)
+Guidelines for this project supplied by [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-blog-app)
 
 
 ## 📝 License
